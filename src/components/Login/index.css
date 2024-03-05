@@ -1,0 +1,210 @@
+.centering-master-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 360px) {
+}
+@media screen and (max-width: 360px) {
+}
+.bg-container-login {
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+  background: #f8fafc;
+}
+
+@media screen and (max-width: 360px) {
+  .bg-container-login {
+    width: 360px;
+    height: 640px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+}
+.login-card {
+  display: flex;
+  flex-direction: column;
+
+  width: 499px;
+  min-height: 484px;
+  margin-left: 72px;
+  margin-top: 270px;
+  background: #ffffff;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 48px;
+}
+@media screen and (max-width: 360px) {
+  .login-card {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 56px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .login-card {
+    margin: 0px;
+    width: 360px;
+    height: 640px;
+
+    background: #ffffff;
+  }
+}
+
+.logo-image {
+  width: 141px;
+  height: 48px;
+  margin-top: 48px;
+  margin-left: 109px;
+}
+@media screen and (max-width: 360px) {
+  .logo-image {
+    margin-top: 16px;
+  }
+}
+
+.login-background-image {
+  width: 780px;
+  height: 1024px;
+
+  background-color: #c4c4c4;
+}
+
+@media screen and (max-width: 360px) {
+  .login-background-image {
+    display: none;
+  }
+}
+
+.login-mobile-background-image {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .login-mobile-background-image {
+    display: block;
+    width: 216px;
+    height: 216px;
+    border-radius: 108px;
+    margin-left: 72px;
+    margin-top: 32px;
+    flex-shrink: 0;
+  }
+}
+
+.input-username {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 20px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #183b56;
+}
+@media screen and (max-width: 360px) {
+  .input-username {
+    width: 312px;
+    height: 56px;
+  }
+}
+
+/* .input-password {
+  box-sizing: border-box;
+  position: absolute;
+  width: 360px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  margin-top: 12px;
+  padding: 20px;
+} */
+
+.username-label {
+  width: 88px;
+  height: 19px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #5a7184;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.login-button {
+  background: #0284c7;
+  border-radius: 8px;
+  width: 360px;
+  height: 56px;
+  margin-top: 32px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 360px) {
+  .login-button {
+    width: 312px;
+    height: 40px;
+    margin-top: 24px;
+  }
+}
+
+.username-container {
+  width: 360px;
+  height: 90px;
+  margin-top: 48px;
+}
+
+@media screen and (max-width: 360px) {
+  .username-container {
+    margin-top: 34px;
+  }
+}
+
+.password-container {
+  margin-top: 24px;
+  width: 360px;
+  height: 90px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.error-msg {
+  font-size: 17px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Light / red / 500 */
+
+  color: #ef4444;
+}
+
+@media screen and (max-width: 360px) {
+}

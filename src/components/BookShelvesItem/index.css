@@ -1,0 +1,146 @@
+.shelve-item-container {
+  box-sizing: border-box;
+  display: flex;
+  margin-right: 136px;
+  width: 330px;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 360px) {
+  .shelve-item-container {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+.book-image {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 360px) {
+  .book-image {
+    min-width: 133px;
+    min-height: 155px;
+    margin-right: 16px;
+    margin-bottom: 24px;
+  }
+}
+
+.book-item-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+
+  margin-bottom: 8px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.book-item-author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #475569;
+  margin-bottom: 6px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.item-rating-container {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 8px;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.book-item-rating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0px;
+  color: #475569;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.item-rating-value {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #334155;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+  font-size: 12px;
+}
+
+.book-item-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.book-item-status-value {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #0284c7;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.book-item-details-container {
+  margin-left: 20px;
+  line-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 360px) {
+  .book-item-details-container {
+    width: 146px;
+    height: 120px;
+    margin: 0px;
+    align-self: center;
+  }
+}

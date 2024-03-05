@@ -1,0 +1,41 @@
+.shelf-type-button {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  background: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .shelf-type-button {
+    border: 1px solid #0284c7;
+    border-radius: 25px;
+
+    color: #0284c7;
+  }
+}
+.active-shelf {
+  font-weight: 600;
+  color: #0284c7;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 360px) {
+  .active-shelf {
+    background: #0284c7;
+    border: 1px solid #0284c7;
+    border-radius: 25px;
+    color: #f8fafc;
+  }
+}

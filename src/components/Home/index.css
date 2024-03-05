@@ -1,0 +1,324 @@
+.bg-container-home {
+  width: 1440px;
+  height: 1024px;
+
+  background: #f5f7fa;
+}
+
+@media screen and (max-width: 360px) {
+  .bg-container-home {
+    width: 360px;
+    height: 640px;
+  }
+}
+@media screen and (max-width: 360px) {
+}
+
+.home-heading {
+  margin-top: 48px;
+}
+@media screen and (max-width: 360px) {
+  .home-heading {
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+
+    /* Light / blue-gray / 800 */
+
+    color: #1e293b;
+  }
+}
+
+.home-para {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: #475569;
+}
+
+@media screen and (max-width: 360px) {
+  .home-para {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.home-body-container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+@media screen and (max-width: 360px) {
+  .home-body-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.mobile-view-button {
+  display: none;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 360px) {
+  .mobile-view-button {
+    display: block !important;
+  }
+}
+
+.find-books-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 360px) {
+  .find-books-container {
+    margin-bottom: 0px;
+  }
+}
+
+.top-rated-card {
+  width: 1240px;
+  height: 424px;
+  background: #ffffff;
+  padding-left: 71px;
+  padding-right: 71px;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+  border-radius: 16px;
+  padding-top: 20px;
+  margin-bottom: 166px;
+}
+
+@media screen and (max-width: 360px) {
+  .top-rated-card {
+    position: absolute;
+    left: 0px;
+    margin-top: ;
+    width: 360px;
+    height: 203px;
+    background: #ffffff;
+    box-shadow: 0px 0px 0.443396px rgba(40, 41, 61, 0.08),
+      0px 0.443396px 0.886792px rgba(96, 97, 112, 0.16);
+    padding: 0px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 0px;
+  }
+}
+
+.top-rated-heading {
+  width: 195px;
+  height: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1e293b;
+}
+
+@media screen and (max-width: 360px) {
+  .top-rated-heading {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    margin-top: 16px;
+    padding: 0px;
+  }
+}
+
+.fetch-container {
+}
+
+@media screen and (max-width: 360px) {
+  .fetch-container {
+  }
+}
+.slick-item {
+  text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+  .slick-item {
+    text-align: center;
+    margin-right: 12px;
+  }
+}
+
+.cover-image {
+  width: 350px;
+  height: 224px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 360px) {
+  .cover-image {
+    width: 146px;
+    height: 99px;
+    border-radius: 2px;
+  }
+}
+
+.title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  margin: 0px;
+  color: #334155;
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 360px) {
+  .title {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 8px;
+  }
+}
+
+.author {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+  margin: 0px;
+}
+
+@media screen and (max-width: 360px) {
+  .author {
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.find-books-button {
+  padding: 10px 20px;
+  gap: 8px;
+
+  width: 104px;
+  height: 36px;
+
+  background: #0284c7;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  border: none;
+  color: #f8fafc;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 360px) {
+  .find-books-button {
+    display: none;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.home-failure-bg-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.home-failure-image {
+  width: 347px;
+  height: 170px;
+}
+
+@media screen and (max-width: 360px) {
+  .home-failure-image {
+    width: 243.78px;
+    height: 120px;
+  }
+}
+
+.failure-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+@media screen and (max-width: 360px) {
+  .failure-text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.try-again-button {
+  width: 75px;
+  height: 32px;
+
+  background: #0284c7;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.33333px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+@media screen and (max-width: 360px) {
+  .try-again-button {
+    width: 87px;
+    height: 32px;
+  }
+}

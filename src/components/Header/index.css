@@ -1,0 +1,134 @@
+.bg-container-header {
+  width: 1440px;
+  height: 89px;
+  background: #ffffff;
+  /* Basic / 300 */
+
+  border: 1px solid #e4e7eb;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+@media screen and (max-width: 360px) {
+  .bg-container-header {
+    width: 360px;
+    height: 56px;
+    padding-left: 24px;
+    justify-content: space-between;
+  }
+}
+
+.logo-image-header {
+  width: 133px;
+  height: 41px;
+}
+
+@media screen and (max-width: 360px) {
+  .logo-image-header {
+    width: 92px;
+    height: 24px;
+  }
+}
+
+.tab-container {
+  display: flex;
+  margin-left: 736px;
+
+  align-items: center;
+  font-size: 24px;
+  list-style: none;
+}
+
+.tab-container-mobile-view {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .tab-container {
+    display: none;
+  }
+  .tab-container-mobile-view {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    width: 340px;
+    background-color: #ffffff;
+    list-style: none;
+    padding: 0px;
+  }
+}
+
+.logout-button {
+  width: 73px;
+  height: 32px;
+  padding: 8px 16px;
+  gap: 8px;
+
+  background: #0284c7;
+  border-radius: 4px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 32px;
+  color: #f8fafc;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.active-tab {
+  width: 46px;
+  height: 24px;
+  margin-right: 32px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0284c7;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 360px) {
+}
+
+.tab {
+  width: 46px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #64748b;
+  margin-right: 32px;
+  cursor: pointer;
+  border: none;
+}
+
+@media screen and (max-width: 360px) {
+}
+.trigger-button {
+  display: none;
+}
+
+@media screen and (max-width: 360px) {
+  .trigger-button {
+    display: block;
+    margin-right: 24px;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+.close-button {
+  border: none;
+  background: none;
+  margin-left: 39px;
+}

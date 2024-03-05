@@ -1,0 +1,27 @@
+.bg-container-footer {
+  width: 100%;
+  /* position: absolute; */
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* bottom: 64px; */
+}
+.social-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 145px;
+  height: 21px;
+}
+.contact-us-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #3d3c3c;
+}
