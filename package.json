@@ -43,7 +43,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "CI=false NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "test": "react-scripts test",
